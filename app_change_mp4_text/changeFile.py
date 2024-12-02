@@ -80,8 +80,7 @@ def main():
     audio_file = "Glicose3.wav"
 
     # Chave da API do OpenAI (não exposta diretamente no código)
-    openai_api_key = "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"  # Defina a chave de API como variável de ambiente
-
+    openai_api_key = "suaapiaqui"
     # 1. Extrair áudio do MP4
     print("Extraindo áudio...")
     audio_file = extract_audio_from_mp4(input_mp4, audio_file)
