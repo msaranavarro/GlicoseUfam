@@ -1,11 +1,11 @@
 package com.samsung.health.hrdatatransfer.data.remote
 
 import com.samsung.health.hrdatatransfer.data.model.User
-import retrofit2.Call
+import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface ApiService {
-    @POST("/api/insert")
-    fun createUser(@Body user: User): Call<Void>
+    @POST("/post_patient_sensors.php")
+    suspend fun createUser(@Body user: User): Response<Void>  // Alterado para suspend
 }

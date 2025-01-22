@@ -37,7 +37,7 @@ fun MainScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black),
+            .background(Color.White),
         verticalArrangement = Arrangement.Top,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -45,7 +45,7 @@ fun MainScreen(
             Modifier
                 .height(70.dp)
                 .fillMaxWidth()
-                .background(Color.Black)
+                .background(Color.White)
         )
         ListView(results)
     }

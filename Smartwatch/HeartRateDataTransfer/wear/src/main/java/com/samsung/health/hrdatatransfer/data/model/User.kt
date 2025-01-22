@@ -1,7 +1,7 @@
 package com.samsung.health.hrdatatransfer.data.model
 
 data class User(
-    val name: String,
-    val age: Int,
-    val email: String
+    val id_patient: String,
+    val dateTime: String,
+    val ibi: ArrayList<Int>
 )
